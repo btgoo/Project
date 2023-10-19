@@ -4,4 +4,4 @@ while True:
         break
     else:
         length = len(item)
-        print("The length of the word:", length, "characters")
+        print("The length of the word:", length, "character")

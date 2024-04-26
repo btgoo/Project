@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Form</title>
+</head>
+<body>
+
+<form action="" method="get">
+Name: <input type="text" name="name" size="30" maxlength="20" required>
+<br> <br> Password: <input type="password" size=30>
+    <br><br> <button TYPE="submit" value="Submit">Submit</button>
+</form>
+
+<br><br>
+<B>Comments?</B>
+<BR>
+<TEXTAREA name="Comments" rows=10 cols=50>
+</TEXTAREA>
+
+<br><br>
+<B> Size: </B>
+<INPUT TYPE="radio" NAME="Size"
+      	VALUE="Large">Large
+<INPUT TYPE="radio" NAME="Size"
+      	VALUE="Medium">Medium
+<INPUT TYPE="radio" NAME="Size"
+	VALUE="Small">Small
+
+<br><br>
+<B> Colour: </B>
+<INPUT TYPE="checkbox" NAME="Colour"
+	VALUE="Red">Red
+<INPUT TYPE="checkbox" NAME="Colour"
+	VALUE="Navy">Navy
+<INPUT TYPE="checkbox" NAME="Colour"
+	VALUE="Black">Black
+
+<br><br>
+<B>WHICH IS FAVOURITE FRUIT:</B>
+<SELECT>
+    <option></option>
+    <OPTION VALUE="MANGOES">MANGOES</option>
+    <OPTION VALUE="PAPAYA">PAPAYA
+    <OPTION VALUE="GUAVA">GUAVA
+    <OPTION VALUE="BANANA"> BANANA
+    <OPTION VALUE="PINEAPPLE">PINEAPPLE
+</SELECT>
+<button type="submit">Submit</button>
+
+<br>
+<br>
+<form>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"> <br>
+    <input type="button" value="Enter"
+           onclick="showInput()">
+function showInput() {document.getElementById("name").value;}
+</form>
+
+
+</body>
+</html>

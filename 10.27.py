@@ -1,3 +1,4 @@
+# importing random library in order to generate random integers
 import random
 
 num_duplications = 0
